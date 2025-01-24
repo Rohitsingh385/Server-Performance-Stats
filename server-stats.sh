@@ -1,18 +1,3 @@
-./server-stats.sh: line 39: lsb_release: command not found
- OS Version:
- Uptime: up 40 minutes
-awk: cmd. line:2: -
-awk: cmd. line:2:  ^ unexpected newline or end of string
- Load Average:
- Logged-in Users: 3
-
-==========================================
-        End of Stats
-==========================================
-[root@ip-172-31-26-178 ec2-user]# vim server-stats.sh
-[root@ip-172-31-26-178 ec2-user]# nano server-stats.sh
-  GNU nano 5.8                                                                server-stats.sh                                                                 Modified
-echo ""
 
 # total Memory usage
 
